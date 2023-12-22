@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	gomodvendor "github.com/paketo-buildpacks/go-mod-vendor"
+	gomodvendor "github.com/initializ/go-mod-vendor"
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/chronos"
 	"github.com/paketo-buildpacks/packit/v2/pexec"

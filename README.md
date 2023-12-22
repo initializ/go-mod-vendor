@@ -9,7 +9,7 @@ command in the app's working directory to make vendored copy of dependencies.
 The Go Mod Vendor CNB does not provide any dependencies. In order to
 execute the `go mod vendor` command, the buildpack requires the `go`
 dependency that can be provided by a buildpack like the [Go Distribution
-CNB](https://github.com/paketo-buildpacks/go-dist).
+CNB](https://github.com/initializ/go-dist).
 
 ## Usage
 
