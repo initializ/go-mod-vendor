@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	gomodvendor "github.com/paketo-buildpacks/go-mod-vendor"
+	gomodvendor "github.com/initializ/go-mod-vendor"
 	"github.com/sclevine/spec"
 
 	. "github.com/onsi/gomega"

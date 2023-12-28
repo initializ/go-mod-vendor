@@ -2,15 +2,15 @@ api = "0.7"
 
 [buildpack]
   description = "A buildpack for installing Go modules using go mod"
-  homepage = "https://github.com/paketo-buildpacks/go-mod-vendor"
-  id = "paketo-buildpacks/go-mod-vendor"
-  name = "Paketo Buildpack for Go Mod Vendor"
+  homepage = "https://github.com/initializ/go-mod-vendor"
+  id = "initializ/go-mod-vendor"
+  name = "initializ for Go Mod Vendor"
   keywords = ["go", "mod", "vendor", "modules"]
   sbom-formats = ["application/vnd.cyclonedx+json","application/spdx+json","application/vnd.syft+json"]
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
-    uri = "https://github.com/paketo-buildpacks/go-mod-vendor/blob/main/LICENSE"
+    uri = "https://github.com/initializ/go-mod-vendor/blob/main/LICENSE"
 
 [metadata]
   include-files = ["bin/build", "bin/detect", "bin/run", "buildpack.toml"]
